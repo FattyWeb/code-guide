@@ -1,0 +1,25 @@
+{
+  "name": "code-guide",
+  "version": "1.0.0",
+  "description": "代码规范",
+  "main": "index.js",
+  "scripts": {
+    "pnpm:docs:dev": "pnpm run docs:dev",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "fatty",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.62",
+    "@vuepress/plugin-prismjs": "2.0.0-beta.62",
+    "@vuepress/plugin-register-components": "2.0.0-beta.62",
+    "vue": "^3.3.4",
+    "vuepress": "2.0.0-beta.62",
+    "webpack": "^5.0.0"
+  },
+  "dependencies": {
+    "@vuepress/utils": "2.0.0-alpha.1",
+    "prismjs": "^1.25.0"
+  }
+}
