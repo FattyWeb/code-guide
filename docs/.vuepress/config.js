@@ -9,7 +9,7 @@ import { resolve } from "path";
 export default defineUserConfig({
   lang: 'zh-CN',
   base: '/code-guide/',
-  title: 'Code Guide by @FattyTeam',
+  title: 'Code Guide by FattyWeb',
   description: 'Standards for developing flexible, durable, and sustainable HTML and CSS, and maintainable JavaScript',
   theme,
   bundler: viteBundler({
