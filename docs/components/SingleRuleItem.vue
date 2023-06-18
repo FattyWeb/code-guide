@@ -27,21 +27,37 @@
       <div v-if="$slots.badCode && $slots.badCode()" class="bad-code">
         <h3>Bad</h3>
         <slot name="badCode">
-
         </slot>
       </div>
-
+      <div v-if="$slots.goodCode && $slots.goodCode()" class="good-code">
+        <h3>Good</h3>
+        <slot name="goodCode">
+        </slot>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
 .bad-code{
-  background-color: $grey;
+  background-color: #f7e8e8;
   overflow: hidden;
   border-radius: 15px;
   h3{
     color: #ed3c50;
+    //margin: 0;
+    font-size: 1.1em;
+    margin: 15px 0 0 15px;
+  }
+}
+
+.good-code{
+  margin-top: 15px;
+  background-color: #ecfaf7;
+  overflow: hidden;
+  border-radius: 15px;
+  h3{
+    color: #42b883;
     //margin: 0;
     font-size: 1.1em;
     margin: 15px 0 0 15px;

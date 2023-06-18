@@ -92,7 +92,7 @@ section {
   color: $cyan;
   cursor: pointer;
   font-weight: 300;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   box-shadow: none;
   padding: 0.525vw 1.05vw;
   transition: 0.3s ease-out;
@@ -111,7 +111,6 @@ section {
   }
 }
 
-/* BLOBS */
 .dot {
   border-radius: 50%;
   display: block;
@@ -232,7 +231,6 @@ section {
   animation-direction: alternate;
 }
 
-/* BLOBS WOBBLING :) */
 .wobble {
   animation-name: wobble;
 }
