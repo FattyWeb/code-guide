@@ -1,0 +1,23 @@
+.element {
+    color :red! important;
+    background-color: rgba(0,0,0,.5);
+}
+
+.element ,
+.dialog{
+    ...
+}
+
+.element>.dialog{
+    ...
+}
+
+.element{
+    ...
+}
+
+@if{
+    ...
+}@else{
+    ...
+}

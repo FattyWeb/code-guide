@@ -1,0 +1,11 @@
+.element {
+    ...
+}
+
+.dialog {
+    color: red;
+
+    &:after {
+        ...
+     }
+}

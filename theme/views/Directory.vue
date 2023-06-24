@@ -91,6 +91,7 @@
       <h2>最佳原则</h2>
       <p>坚持制定好的代码规范。</p>
       <p>无论团队人数多少，<strong>代码应该同出一门。</strong> </p>
+      <p>每个规范的标题后的链接图标 会展示改规则对应的 <strong><a href="https://eslint.org/">eslint rule</a></strong></p>
       <p>如果你想要为这个规范做贡献或觉得有不合理的地方，请访问<a href="https://github.com/AlloyTeam/CodeGuide/issues/new">New Issue</a>。</p>
     </div>
   </div>

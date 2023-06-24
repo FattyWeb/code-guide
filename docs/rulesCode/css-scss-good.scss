@@ -1,0 +1,11 @@
+@import "dialog";
+
+.fatal {
+    @extend %error;
+}
+
+.element {
+    > .dialog {
+        ...
+    }
+}

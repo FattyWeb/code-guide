@@ -1,10 +1,10 @@
-import {defineUserConfig, viteBundler} from 'vuepress'
-import theme from '../../theme/config'
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
-import { prismjsPlugin } from'@vuepress/plugin-prismjs' // 语法高亮
-import {  path } from '@vuepress/utils'
-
 import { resolve } from "path";
+import theme from '../../theme/config'
+import { path } from '@vuepress/utils'
+import {defineUserConfig, viteBundler} from 'vuepress'
+import { prismjsPlugin } from'@vuepress/plugin-prismjs' // 语法高亮
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -37,5 +37,6 @@ export default defineUserConfig({
     }),
     prismjsPlugin({
     }),
+    backToTopPlugin(),
   ],
 })

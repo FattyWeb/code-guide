@@ -1,0 +1,6 @@
+.element
+{color: red; background-color: black;}
+
+.element, .dialog {
+    ...
+}

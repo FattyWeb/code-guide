@@ -1,0 +1,12 @@
+@import "_dialog.scss";
+
+.fatal {
+    @extend .error;
+}
+
+.element {
+    & > .dialog {
+        ...
+    }
+}
+
